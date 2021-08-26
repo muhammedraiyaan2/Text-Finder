@@ -9,9 +9,9 @@ let output2=document.getElementById('output2')
 nav.style.background="#f8f9fa"
 nav.style.color="#212529"
 btn.addEventListener("click", function(){
-    output.innerText=`${para.value.split(vari.value).length-1} words found
-    ${para.value.length} characters
-    index number ${para.value.indexOf(vari.value)+1} to ${para.value.indexOf(vari.value)+1+vari.value.length}`
+    output.innerText=`${para.value.split(vari.value).length-1} words found 
+    ${para.value.length} characters in the paragraph
+    index number in the paragraph ${para.value.indexOf(vari.value)+1} to ${para.value.indexOf(vari.value)+1+vari.value.length}`
 })
 // darkmode
 dark.addEventListener("click",function(){
